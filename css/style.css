@@ -1,0 +1,113 @@
+/*Import da fonte*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Outfit:wght@400;700&family=Poppins:wght@200&display=swap');
+
+
+/*Zera as configurações default dos browsers*/
+
+* {
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Outfit', sans-serif;
+	font-size: 15px;
+
+}
+
+/*Configura o body*/
+
+body {
+
+	width: 1440px;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 12.5%;
+	background-image: url("../images/bg-layer-2.svg");
+
+}
+
+/*Cofigura o container com o flex-box*/
+
+.container {
+
+	width: 95%;
+	height: 75%;
+	background-color: hsl(212, 45%, 89%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+
+}
+
+/*Configura o card onde estarão os elementos
+  qr-code e texto*/
+
+.card {
+
+	width: 25%;
+	height: 70%;
+	background-color: hsl(0, 0%, 100%);
+	display: flex;
+	flex-direction: column;
+	border-radius: 25px;
+	box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+	
+}
+
+/*Configura o espaço para a imagem qr-code*/
+
+.qr-code {
+
+	display: flex;
+	justify-content: center;
+	margin-top: 5%;
+
+}
+
+/*Cofigura a imagem qr-code*/
+
+.qr-code img {
+
+	width: 90%;
+	border-radius: 20px;
+	
+}
+
+/*Configura o espaço para o texto*/
+
+.text {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+/*Configura a tag <h3> da div texto*/
+
+.text h3 {
+
+	width: 80%;
+	margin: 7% 0 5% 0;
+	text-align: center;
+	font-size: 22px;
+	color: hsl(218, 44%, 22%);
+
+}
+
+/*Configura a tag <p> da div texto*/
+
+.text p {
+
+	width: 80%;
+	margin: 0 10% 0 10%;
+	text-align: center;
+	font-size: 16px;
+	color: hsl(220, 15%, 55%);
+
+}
